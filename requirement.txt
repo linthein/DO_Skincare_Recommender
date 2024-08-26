@@ -1,8 +1,8 @@
 streamlit
-streamlit-option-menu
 numpy
 tensorflow
 pandas
 scikit-learn
 Pillow
 os
+streamlit-option-menu
