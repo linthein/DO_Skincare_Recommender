@@ -7,9 +7,10 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from PIL import Image
+import os
 
 #Project Folder
-project_folder=r"D:\ai_Batch16"
+project_folder = os.path.dirname(__file__)
 
 # Import the Dataset
 skincare = pd.read_csv(f"{project_folder}\MP-Skin Care Product Recommendation System3.csv", encoding='utf-8', index_col=None)
