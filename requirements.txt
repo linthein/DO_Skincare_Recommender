@@ -4,5 +4,4 @@ tensorflow
 pandas
 scikit-learn
 Pillow
-os
 streamlit-option-menu
