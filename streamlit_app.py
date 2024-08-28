@@ -11,12 +11,13 @@ import os
 
 #Project Folder
 project_folder = os.path.dirname(__file__)
+print(project_folder)
 
 # Import the Dataset
-skincare = pd.read_csv(f"{project_folder}\MP-Skin Care Product Recommendation System3.csv", encoding='utf-8', index_col=None)
+skincare = pd.read_csv(f"{project_folder}MP-Skin Care Product Recommendation System3.csv", encoding='utf-8', index_col=None)
 
 # Set the header for the Streamlit app
-st.set_page_config(page_title="Simbolo AI", page_icon=f"{project_folder}\media\simbolo-icon.jfif", layout="centered")
+st.set_page_config(page_title="Simbolo AI", page_icon=f"{project_folder}media\simbolo-icon.jfif", layout="centered")
 
 # Example number for menu style
 EXAMPLE_NO = 2
@@ -216,5 +217,4 @@ if selected == "Get Recommendation":
 if selected == "Skin Care 101":
     st.title(f"Take a Look at {selected}")
     st.write('---')
-    #st.image(r"D:\ai_Batch16\wallpaperflare.com_wallpaper.jpg")
-    st.video(f"{project_folder}\media\Skincare_Story.mp4", format="video/mp4", start_time=0, loop=True, autoplay=True, muted=False) 
+    st.video(f"{project_folder}media\Skincare_Story.mp4", format="video/mp4", start_time=0, loop=True, autoplay=True, muted=False) 
