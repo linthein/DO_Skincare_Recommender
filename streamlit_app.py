@@ -217,4 +217,4 @@ if selected == "Get Recommendation":
 if selected == "Skin Care 101":
     st.title(f"Take a Look at {selected}")
     st.write('---')
-    st.video(f"{project_folder}/media/Skincare_Story.mp4", format="video/mp4", start_time=0, loop=True, autoplay=True, muted=False) 
+    st.video(f"{project_folder}/media/Skincare_Story.mp4", format="video/mov", start_time=0, loop=True, autoplay=True, muted=False) 
