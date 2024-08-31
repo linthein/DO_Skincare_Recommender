@@ -1,5 +1,5 @@
-Simbolo Skin Care Recommender
-
+**Simbolo Skin Care Recommender
+**
 This project aims to develop a skincare product recommendation system using machine learning techniques. By leveraging TF-IDF and cosine similarity algorithms, the system effectively analyzes product descriptions, allowing for accurate recommendations based on user preferences.
 
 The system incorporates user-defined parameters such as skin type, desired effects, and skin problems to generate tailored product suggestions. By considering factors like product category, notable effects, and user-specified criteria, the system provides a personalized experience for skincare consumers.
