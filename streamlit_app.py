@@ -96,7 +96,7 @@ if selected == "Skin Care":
         Project Members: Myat Noe Kabyar, Moe Thet Paing & Lin Thein Naing
         """)
     
-    st.info("xyz")
+    st.info("Thank you for visiting us!")
 
 if selected == "Get Recommendation":
 
